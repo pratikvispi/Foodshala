@@ -1,0 +1,17 @@
+body{
+    background-image: url("./uploads/wall.jpg");
+}
+
+.container{
+    background-color: aqua;
+    height: 650px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 80px;
+}
+.btn{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(26, 151, 26);
+
+}
