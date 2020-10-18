@@ -1,4 +1,5 @@
 <?php 
+	session_start();
 	require 'connection.php';
 	if ($_SERVER["REQUEST_METHOD"] == "POST"){
 		if(isset($_POST['userSignupBtn']) && isset($_POST['first_name']) && isset($_POST['last_name']) && isset($_POST['email']) && isset($_POST['preference']) && isset($_POST['contact_number']) && isset($_POST['password'])){
