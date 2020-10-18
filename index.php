@@ -1,3 +1,10 @@
+<?php error_reporting(E_ALL); 
+ini_set('display_errors',1);
+ob_start();
+flush(); // Flush the buffer
+ob_flush();
+session_start();?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
