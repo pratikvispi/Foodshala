@@ -1,8 +1,8 @@
 <?php
-  $servername = "localhost";
-  $username = "root";
-  $password = "";
-  $dbname = "foodshala";
+  $servername = "remotemysql.com";
+  $username = "cJNYctkCTQ";
+  $password = "M6gpvD3GDO";
+  $dbname = "cJNYctkCTQ";
 
   // Connecting to the phpmyadmin mysql database
 
